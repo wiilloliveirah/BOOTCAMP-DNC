@@ -1,0 +1,64 @@
+
+body {
+    margin: 0px;   
+    /*margen externa*/
+    padding: 0px;  
+    /*margen interna*/
+}
+
+#principal {
+    width: 100%;
+    height: 110px;
+    border: 1px solid black;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between; 
+    /*destribuicao entre o final dos elementos*/
+    align-items: center;
+    border-bottom: 1px solid #BABABA;
+
+}
+
+#menu {
+    display: flex;
+    width: 55%;
+    justify-content: space-around; 
+    /*As linhas são distribuídas uniformemente dentro do eixo transversal, sendo o espaçamento de cada uma adjacente igua*/
+    align-items: center;
+    margin-left: 1%;
+}
+
+#principal div a{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-family: "inter";
+}
+
+    #principal div a:hover{
+        color: #CCCCCC
+
+    }
+
+#principal button {
+    margin-right: 8%;
+    background-color: #0C70F2;
+    border: 0px;
+    align-items: center;
+
+    height: 46px;
+    width: 94px;
+
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    box-shadow: -0px 2px 4px 4px rgba(12, 112, 242, 0.25)
+    /* Box Shadow: 3px 2px 4px rgba (12, 112, 242, 0.25); */
+
+
+}
