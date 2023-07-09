@@ -307,4 +307,17 @@ footer .linha2 a:hover{
     .cheeckbox-itens label{
         font-size: 22px;
     }
+
+    /* FOOTER MOBILE*/
+
+    footer .linha1{
+        flex-direction: column;
+    }
+    footer .endereco{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    footer .linha2{
+        font-size: 200px;
+    }
 }
